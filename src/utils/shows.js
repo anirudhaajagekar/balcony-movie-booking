@@ -179,4 +179,4 @@ export function computeTotals(seats) {
   const convenienceFee = seats.length * CONVENIENCE_FEE_PER_TICKET
   const gst = Math.round(convenienceFee * GST_RATE)
   return { ticketTotal, convenienceFee, gst, grandTotal: ticketTotal + convenienceFee + gst }
-}
+}   
